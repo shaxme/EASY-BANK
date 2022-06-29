@@ -424,6 +424,9 @@ header {
   font-size: 14px;
   line-height: 16px;
   padding-bottom: 36px;
+  margin-left: 16px;
+  padding-left: 7px;
+  padding-right: 7px;
   color: #9597A5;
   text-decoration: none;
 }
