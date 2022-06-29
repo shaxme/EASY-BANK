@@ -1,0 +1,135 @@
+.digital {
+  background-image: url("/img/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+  position: relative;
+  padding-bottom: 170px;
+  background-position: calc(50% + 630px) calc(50% );
+}
+
+.digital__intro {
+  display: flex;
+}
+
+.digital__text {
+  max-width: 447px;
+  width: 100%;
+  margin: 0;
+}
+
+.digital__textt {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.digital__heading {
+  margin: 0px;
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+
+.digital__invite{
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  padding: 8px 36px 8px 33px;
+  width: 163px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.digital__invite:hover {
+  opacity: 0.8;
+}
+
+.digital__invite:active {
+  opacity: 0.5;
+  border-radius: 22px;
+}
+
+
+
+.digital__phones {
+  position: absolute;
+  top: 0%;
+  left: 48%;
+}
+
+.digital__phones-2 {
+  display: none;
+}
+
+@media only screen and (max-width: 426px) {
+
+
+  .digital {
+      background-image: url("/img/back__mini.png");
+      background-repeat: no-repeat;
+      background-size: 968px 398px;
+      padding-top: 250px;
+      position: relative;
+      padding-bottom: 70px;
+      background-position: 10% top;
+      
+    }
+
+  .digital__intro {
+    max-width: 327px;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .digital__phones {
+    display: none;
+  }
+
+  .digital__phones-2 {
+   position: absolute;
+    top: -5%;
+    display: inline-block;  
+  }
+
+  .digital__heading {
+    margin-top: 250px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+  }
+
+  .digital__text {
+    text-align: center;
+  }
+
+  .digital__textt {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    color: #9597A5;
+  }
+
+  .digital__phones-2 {
+    width: 100%;
+    left: 0%;
+  }
+
+}
