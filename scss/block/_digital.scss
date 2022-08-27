@@ -60,12 +60,10 @@
   border-radius: 22px;
 }
 
-
-
 .digital__phones {
   position: absolute;
   top: 0%;
-  left: 48%;
+  left: 46%;
 }
 
 .digital__phones-2 {
@@ -74,17 +72,16 @@
 
 @media only screen and (max-width: 426px) {
 
-
   .digital {
-      background-image: url("/img/back__mini.png");
-      background-repeat: no-repeat;
-      background-size: 968px 398px;
-      padding-top: 250px;
-      position: relative;
-      padding-bottom: 70px;
-      background-position: 10% top;
+    background-image: url("/img/back__mini.png");
+    background-repeat: no-repeat;
+    background-size: 968px 398px;
+    padding-top: 250px;
+    position: relative;
+    padding-bottom: 70px;
+    background-position: 10% top;
       
-    }
+  }
 
   .digital__intro {
     max-width: 327px;
@@ -131,5 +128,4 @@
     width: 100%;
     left: 0%;
   }
-
 }
