@@ -6,10 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -44,12 +42,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -57,10 +52,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -77,13 +70,10 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -101,10 +91,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -154,14 +142,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -169,8 +153,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -179,8 +162,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -229,18 +211,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -263,10 +239,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -282,10 +256,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -300,10 +272,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -343,16 +313,14 @@ template {
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 100;
-  src: local(""), url("../fonts/public-sans-v13-latin-100.woff2") format("woff2"), url("../fonts/public-sans-v13-latin-100.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("../fonts/public-sans-v13-latin-100.woff2") format("woff2"), url("../fonts/public-sans-v13-latin-100.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* public-sans-regular - latin */
 @font-face {
   font-family: "Public Sans";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/public-sans-v13-latin-regular.woff2") format("woff2"), url("../fonts/public-sans-v13-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(""), url("../fonts/public-sans-v13-latin-regular.woff2") format("woff2"), url("../fonts/public-sans-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 * {
   box-sizing: border-box;
@@ -377,7 +345,7 @@ body {
   margin: 0 auto;
 }
 
-header {
+.header {
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -470,15 +438,12 @@ header {
     max-width: 375px;
     width: 100%;
   }
-
   .header__navbar {
     display: none;
   }
-
   .header__invite {
     display: none;
   }
-
   .menu {
     display: block;
     border: none;
@@ -561,7 +526,7 @@ header {
 .digital__phones {
   position: absolute;
   top: 0%;
-  left: 48%;
+  left: 46%;
 }
 
 .digital__phones-2 {
@@ -578,24 +543,20 @@ header {
     padding-bottom: 70px;
     background-position: 10% top;
   }
-
   .digital__intro {
     max-width: 327px;
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
   }
-
   .digital__phones {
     display: none;
   }
-
   .digital__phones-2 {
     position: absolute;
     top: -5%;
     display: inline-block;
   }
-
   .digital__heading {
     margin-top: 250px;
     font-weight: 100;
@@ -605,11 +566,9 @@ header {
     letter-spacing: -0.714286px;
     color: #2D314D;
   }
-
   .digital__text {
     text-align: center;
   }
-
   .digital__textt {
     margin: 0;
     margin-bottom: 24px;
@@ -619,7 +578,6 @@ header {
     letter-spacing: -0.234375px;
     color: #9597A5;
   }
-
   .digital__phones-2 {
     width: 100%;
     left: 0%;
@@ -696,24 +654,20 @@ header {
     max-width: 375px;
     width: 100%;
   }
-
   .hero__text-div {
     text-align: center;
     width: 100%;
   }
-
   .hero__list {
     flex-direction: column;
     width: 100%;
   }
-
   .hero__item {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
-
   .hero__item-p {
     font-weight: 100;
     font-size: 20px;
@@ -722,7 +676,6 @@ header {
     letter-spacing: -0.357143px;
     color: #2D314D;
   }
-
   .hero__item-text {
     margin: 0;
     margin-bottom: 32px;
@@ -800,24 +753,20 @@ header {
   .articles__inner {
     width: 100%;
   }
-
   .articles__list {
     width: 100%;
     flex-direction: column;
   }
-
   .articles__item {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
     margin-bottom: 24px;
   }
-
   .articles__heading {
     text-align: center;
     padding-left: 0;
   }
-
   .articles__img {
     width: 100%;
   }
@@ -934,11 +883,9 @@ footer {
     text-align: center;
     width: 100%;
   }
-
   .footer__invite {
     display: none;
   }
-
   .footer__logo-img {
     margin-bottom: 30px;
   }
